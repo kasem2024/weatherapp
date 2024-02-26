@@ -1,0 +1,62 @@
+.title{
+    font-size:23px;
+    font-weight:700px
+
+}
+.daily-item{
+    background-color:#000000 ;
+    color: aliceblue;
+    border-radius: 15px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 50px;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 20px ;
+    justify-content: space-around;
+}
+.icon-small{
+    width: 40px;
+    background-color: #979090;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.day{
+    color: rgb(255, 132, 32);
+    flex: 1 ;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.desc{
+    flex: 1;
+    margin-right: 15px;
+    text-align: center;
+    color: rgb(123, 110, 110);
+}
+.min-max{
+    color: #c4b4b4;
+}
+.daily-details-grid{
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+}
+.daily-details-grid-item{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
